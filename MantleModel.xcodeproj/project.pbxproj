@@ -22,6 +22,8 @@
 		DD1D798418F4FEDF00C3D425 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD1D798218F4FEDF00C3D425 /* InfoPlist.strings */; };
 		DD1D798618F4FEDF00C3D425 /* MantleModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1D798518F4FEDF00C3D425 /* MantleModelTests.m */; };
 		DD1D799018F4FEF600C3D425 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DD1D798F18F4FEF600C3D425 /* data.json */; };
+		DD33DC9C18F52FAC00879945 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD33DC9B18F52FAC00879945 /* MapKit.framework */; };
+		DD7EB2A018F500E100ACA05A /* OZMemberProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7EB29F18F500E100ACA05A /* OZMemberProfile.m */; };
 		DF15143E9DE84CB0B3ADE4E0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D66BAF73E22C4D53920E1BE8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,9 @@
 		DD1D798318F4FEDF00C3D425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD1D798518F4FEDF00C3D425 /* MantleModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MantleModelTests.m; sourceTree = "<group>"; };
 		DD1D798F18F4FEF600C3D425 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DD33DC9B18F52FAC00879945 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DD7EB29E18F500E100ACA05A /* OZMemberProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZMemberProfile.h; sourceTree = "<group>"; };
+		DD7EB29F18F500E100ACA05A /* OZMemberProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZMemberProfile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD33DC9C18F52FAC00879945 /* MapKit.framework in Frameworks */,
 				DD1D795D18F4FEDF00C3D425 /* CoreGraphics.framework in Frameworks */,
 				DD1D795F18F4FEDF00C3D425 /* UIKit.framework in Frameworks */,
 				DD1D795B18F4FEDF00C3D425 /* Foundation.framework in Frameworks */,
@@ -108,6 +114,7 @@
 		DD1D795918F4FEDF00C3D425 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD33DC9B18F52FAC00879945 /* MapKit.framework */,
 				DD1D795A18F4FEDF00C3D425 /* Foundation.framework */,
 				DD1D795C18F4FEDF00C3D425 /* CoreGraphics.framework */,
 				DD1D795E18F4FEDF00C3D425 /* UIKit.framework */,
@@ -125,6 +132,8 @@
 				DD1D796C18F4FEDF00C3D425 /* Main.storyboard */,
 				DD1D796F18F4FEDF00C3D425 /* OZViewController.h */,
 				DD1D797018F4FEDF00C3D425 /* OZViewController.m */,
+				DD7EB29E18F500E100ACA05A /* OZMemberProfile.h */,
+				DD7EB29F18F500E100ACA05A /* OZMemberProfile.m */,
 				DD1D798F18F4FEF600C3D425 /* data.json */,
 				DD1D797218F4FEDF00C3D425 /* Images.xcassets */,
 				DD1D796118F4FEDF00C3D425 /* Supporting Files */,
@@ -297,6 +306,7 @@
 			files = (
 				DD1D796718F4FEDF00C3D425 /* main.m in Sources */,
 				DD1D797118F4FEDF00C3D425 /* OZViewController.m in Sources */,
+				DD7EB2A018F500E100ACA05A /* OZMemberProfile.m in Sources */,
 				DD1D796B18F4FEDF00C3D425 /* OZAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

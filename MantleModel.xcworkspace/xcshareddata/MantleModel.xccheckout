@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6A7A8C31-731D-48EB-8BEE-70DDB5970246</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MantleModel</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CED802BD-7289-446E-B07A-EA31515C0A12</key>
+		<string>ssh://github.com/macbaszii/MantleModel.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MantleModel.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CED802BD-7289-446E-B07A-EA31515C0A12</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/macbaszii/MantleModel.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CED802BD-7289-446E-B07A-EA31515C0A12</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CED802BD-7289-446E-B07A-EA31515C0A12</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MantleModel</string>
+		</dict>
+	</array>
+</dict>
+</plist>
